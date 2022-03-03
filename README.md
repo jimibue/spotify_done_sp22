@@ -45,7 +45,7 @@ $ rails g controller api/artists
 ## seeding our db
 we can add code to 'seed' or pre-populate or database with data
 
-seeds.rb
+seeds.rb (not required, but nice to have)
 ```
 britney = Artist.create(name:'Britney',fans:124234)
 mj = Artist.create(name:'Michael Jackson',fans:1224234)
